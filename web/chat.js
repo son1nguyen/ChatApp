@@ -1,5 +1,5 @@
 
-var wsUri = "ws://" + document.location.host + "/ChatApp1" + "/websocket";
+var wsUri = "ws://" + document.location.host + "/ChatApp" + "/websocket";
 var websocket = new WebSocket(wsUri);
 
 var username = document.getElementsByTagName("a")[0].innerHTML;
